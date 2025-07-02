@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="Tabelaadocao.css">
+</head>
+<body>
+      <h1>Adoção</h1>  
+      <h2>insira dados para continuar com a adoção</h2>
+  <form method="post" action="test.jsp">
+    • Nome completo:
+  <input type="text" name="nome"> 
+  <br>
+  • E-mail: 
+  <input type="email" name="e-mail">
+  <br>
+  • RG: 
+  <input type="text" name="RG">
+  <br>
+  • CPF: <input type="text" name="CPF">
+  <br>
+  • Telefone: <input type="tel" name="Telefone">
+  <br>
+  • Endereço: <input type="text" name="Endereço">
+  <br>
+  •Qual animal deseja adotar?
+  <select name="animais">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>    
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+        </select>
+        <br>          
+        •Data em que peretende adotar : <input type="date" name="Data"> 
+        <br> 
+        •Informações adicionais 
+        <br>
+        <textarea name="Comentários" rows="10" cows="100"></textarea> 
+        
+        <br>
+        •Termos de adoção:<a href="https://www.adotando.com.br/termos-de-adocao">Clique aqui para ler os termos de adoção</a>
+        <br>
+            <input type="radio" name="termos" value="Sim"> Eu li os termos de condição de adoção e concordo com eles.
+        <br>
+            <input type="radio" name="termos" value="Nao"> Discordo dos termos de condição de adoção.
+        <br>
+            <input type="submit" value="Continuar">    
+  </form>
+</body>
+</html>

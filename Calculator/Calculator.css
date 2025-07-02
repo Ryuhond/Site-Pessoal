@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 50px;
+  }
+
+  h1, h2 {
+  color: #333333;
+}
+
+strong {
+    color: red;
+  }
+
+  input, select {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+  }
+
+  #resposta {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 6em;
+  }

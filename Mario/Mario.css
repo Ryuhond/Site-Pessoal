@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+}
+
+h1 {
+    color: #fb0016;
+    font-family: 'Mario';
+    font-size: 40px;
+    text-align: center;
+}
+
+div#header {
+    text-align: center;
+    font-size: 20px;
+}
+
+.mario-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+h2 {
+    color: #0068e5;
+    font-family: 'Mario';
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Mario';
+    src: url(../Mario/SuperMario256.ttf)
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+footer img {
+  margin-left: 4px;
+  vertical-align: middle;
+}

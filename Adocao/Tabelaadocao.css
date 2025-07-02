@@ -1,0 +1,45 @@
+body{
+    background-color: #e6f0ff;
+}
+
+h1 {
+  color: #2a6b8f;
+}
+
+h2 {
+  color: #4a90e2;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.img-animais {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#panimais{
+  text-align: center;
+}
